@@ -97,13 +97,13 @@ main {
   grid-row: 1/1;
   display: grid;
   gap: 27px;
-  grid-template-columns: repeat(5, 1.7rem);
+  grid-template-columns: repeat(2, 7rem);
 }
 
 .calc {
   grid-column: 1/2;
-  text-align: center;
-  align-items: center;
+  text-align: start;
+  align-items: end;
 }
 .calc p {
   font-size: 35px;
@@ -111,15 +111,18 @@ main {
 }
 
 .toggle {
-  grid-column: 5/6;
+  grid-column: 2/3;
   display: grid;
-
-  align-items: center;
+  text-align: end;
+  justify-content: right;
+  align-items: end;
   grid-template-columns: repeat(2, 1.8rem);
   grid-template-rows: repeat(2, 1.2rem);
+  column-gap: 0.5rem;
 }
 
 .theme-toggle {
+  /* text-align: start; */
   grid-column: 2/3;
   grid-row: 2/3;
 }
