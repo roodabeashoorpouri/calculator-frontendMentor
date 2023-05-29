@@ -25,8 +25,8 @@ function App() {
   const clear = () => {
     setResult("");
   };
-  const handleClick = (e) => {
-    setResult(result.concat(e.target.name));
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    setResult(result.concat(e.currentTarget.name));
     const lastCharacter = result.slice(-1);
   };
 
