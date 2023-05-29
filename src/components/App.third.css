@@ -1,0 +1,46 @@
+.main.third {
+  background-color: var(--color-bg-main-3);
+}
+
+.keys.third {
+  background-color: var(--color-bg-toggle-screen);
+}
+
+.number.third {
+  background-color: var(--color-key-bg-violet-dark);
+  box-shadow: 0px 3px var(--color-key-shadow-magenta-dark);
+  color: var(--color-text-light-yellow);
+}
+
+.equal.third {
+  background-color: var(--color-key-bg-pure-cyan);
+  color: var(--color-text-dark-blue);
+  box-shadow: 0px 3px var(--color-key-shadow-soft-cyan);
+}
+
+.delete.third,
+.reset.third {
+  background-color: var(--color-key-bg-violet);
+  color: var(--color-text-white);
+  box-shadow: 0px 3px var(--color-key-shadow-magenta-dark);
+}
+
+.result.third {
+  background-color: var(--color-bg-toggle-screen);
+  color: var(--color-text-light-yellow);
+}
+.number.third:hover {
+  background-color: hsl(268, 43%, 50%);
+}
+.equal.third:hover {
+  background-color: var(--color-key-shadow-soft-cyan);
+}
+.reset.third:hover,
+.delete.third:hover {
+  background-color: hsl(285, 44%, 50%);
+}
+
+.header.third,
+.toggle.third {
+  color: var(--color-text-light-yellow);
+}

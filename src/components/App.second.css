@@ -1,0 +1,53 @@
+.main.second {
+  background-color: var(--color-bg-main-2);
+}
+
+.keys.second {
+  background-color: var(--color-bg-toggle-2);
+}
+
+.number.second {
+  background-color: var(--color-key-bg-light-2);
+  box-shadow: 0px 3px var(--color-key-shadow-grayish-2);
+  color: var(--color-text-grayish-yellow);
+}
+
+.reset.second {
+  background-color: var(--color-key-bg-cyan);
+  color: var(--color-text-white);
+  box-shadow: 0px 3px var(--color-key-shadow-cyan);
+}
+
+.equal.second {
+  background-color: var(--color-key-bg-orange);
+  color: var(--color-text-white);
+  box-shadow: 0px 3px var(--color-key-shadow-orange);
+}
+
+.delete.second {
+  background-color: var(--color-key-bg-cyan);
+  color: var(--color-text-white);
+  box-shadow: 0px 3px var(--color-key-shadow-cyan);
+}
+
+.result.second {
+  background-color: var(--color-bg-screen-2);
+  color: var(--color-text-grayish-yellow);
+}
+
+.number.second:hover {
+  background-color: var(--color-text-white);
+}
+
+.equal.second:hover {
+  background-color: hsl(25, 85%, 53%);
+}
+.reset.second:hover,
+.delete.second:hover {
+  background-color: hsl(185, 49%, 56%);
+}
+
+.header.second,
+.toggle.second {
+  color: var(--color-text-grayish-yellow);
+}
