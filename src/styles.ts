@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import App from "./App";
+
 export type WrapperProps = {
   height: number;
   width: number;

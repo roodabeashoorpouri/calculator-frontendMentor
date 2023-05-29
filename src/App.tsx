@@ -27,7 +27,6 @@ function App() {
   };
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     setResult(result.concat(e.currentTarget.name));
-    const lastCharacter = result.slice(-1);
   };
 
   const calculate = () => {

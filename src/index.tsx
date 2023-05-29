@@ -1,4 +1,4 @@
-import React, {
+import {
   CSSProperties,
   FC,
   forwardRef,
@@ -106,6 +106,7 @@ const ReactThreeToggle: FC<ReactThreeToggleProps> = forwardRef<
         uniqueValues.map(({ id, value }) => <option key={id} value={value} />),
       [uniqueValues]
     );
+    // eslint-disable-next-line @typescript-eslint/no-empty-function
     const handleChange = useCallback(() => {}, []);
     const [enabledTouch, setEnabledTouch] = useState(false);
     const [wrap, setWrap] = useState(false);
